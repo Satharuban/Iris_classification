@@ -43,6 +43,6 @@ print(x.shape)
 print(y.shape)
 
 
-model.fit(x,y,epochs=1000)
+model.fit(x,y,epochs=1001)
 
 model.save('test.h5')
